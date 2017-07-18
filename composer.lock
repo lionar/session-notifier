@@ -1,0 +1,135 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "bab7604206adff9765cda8ba2a61bce8",
+    "packages": [
+        {
+            "name": "lionar/agreements",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lionar/agreements.git",
+                "reference": "5b5f4a8b997bafae2b574261f8ce3c1d1154bd9a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lionar/agreements/zipball/5b5f4a8b997bafae2b574261f8ce3c1d1154bd9a",
+                "reference": "5b5f4a8b997bafae2b574261f8ce3c1d1154bd9a",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "agreed\\": "source"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aron Wouters",
+                    "email": "lionar@mail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Interfaces for technical components.",
+            "keywords": [
+                "Agreements",
+                "lionar"
+            ],
+            "time": "2017-07-18T20:07:02+00:00"
+        },
+        {
+            "name": "lionar/session",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lionar/session.git",
+                "reference": "629b1996411efad1692689f6049b2c46e9d80c84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lionar/session/zipball/629b1996411efad1692689f6049b2c46e9d80c84",
+                "reference": "629b1996411efad1692689f6049b2c46e9d80c84",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "session\\": "source"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aron Wouters",
+                    "email": "lionar@mail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Simple php session wrapper.",
+            "keywords": [
+                "lionar",
+                "session"
+            ],
+            "time": "2017-07-18T19:50:57+00:00"
+        },
+        {
+            "name": "lionar/support",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lionar/support.git",
+                "reference": "ea3ee9db4843fe5f9c2b6188ddd9c7961453345b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lionar/support/zipball/ea3ee9db4843fe5f9c2b6188ddd9c7961453345b",
+                "reference": "ea3ee9db4843fe5f9c2b6188ddd9c7961453345b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "": "source"
+                },
+                "files": [
+                    "source/helpers/filesystem.php",
+                    "source/helpers/text.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aron Wouters",
+                    "email": "lionar@mail.com",
+                    "role": "Developer"
+                }
+            ],
+            "keywords": [
+                "lionar",
+                "support"
+            ],
+            "time": "2017-07-09T20:07:09+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

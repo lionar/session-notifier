@@ -1,0 +1,36 @@
+{
+	"name": "lionar/session-notifier",
+	"version": "0.0.1",
+	"description": "Notifier based on lionar session.",
+	"keywords": [ "Lionar", "Session", "Notifier" ],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Aron Wouters",
+			"email": "lionar@mail.com",
+			"role": "Developer"
+		}
+	],
+	"require" : {
+		"lionar/agreements": "*",
+		"lionar/session": "*",
+		"lionar/support": "*"
+  	},
+	"require-dev": {
+		
+	},
+	"autoload": {
+    	"psr-4": {
+			"session\\": "source"
+   	 	}
+  	},
+	"autoload-dev": {
+    	"psr-4": {
+			
+		}
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "dev"
+}
